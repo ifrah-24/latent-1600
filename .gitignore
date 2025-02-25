@@ -1,2 +1,5 @@
+flaskenv/
 venv/
 __pycache__/
+*.pyc
+

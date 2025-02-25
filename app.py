@@ -6,6 +6,10 @@ app = Flask(__name__)
 def home():
    return "Hello , Devops Noobs!"
 
+@app.route('/health')
+def health():
+   return {"status":"up"},200
+
 @app.route('/test')
 def tests():
    return "How are you dear ?"
